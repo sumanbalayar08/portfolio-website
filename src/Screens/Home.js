@@ -10,7 +10,7 @@ const Home = () => {
         <div className='space-y-4'>
             <header className='space-y-2'>
             <h1 className='text-black font-bold text-6xl'>Hello 👋.</h1>
-            <p className='text-slate-700 text-xl font-bold leading-loose'>I'm <span className='text-red-500'>Suman Balayar.</span> Software Developer.<br/>  Devops Engineer.Tech Enthusiast.<br/> Learner for Life👨‍🎓</p>
+            <p className='text-slate-700 text-xl font-bold leading-loose'>I'm <span className='text-red-500'>Balayar Suman.</span> Software Developer.<br/>  Devops Engineer.Tech Enthusiast.<br/> Learner for Life👨‍🎓</p>
             </header>
             <section className='space-x-2'>
             <SocialIcon/>
