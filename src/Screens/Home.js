@@ -1,45 +1,56 @@
-import React from 'react'
-import { SocialIcon } from 'react-social-icons';
-import myImage from '../images/suman.png'
+import React from "react";
+import { SocialIcon } from "react-social-icons";
+import myImage from "../images/suman.png";
+import waved from "../images/waving.1bae5fcfb51082b5c2b4.png";
+import { AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
+import image1 from '../images/icons.svg'
+import image2 from '../images/icon2.svg'
+import image3 from '../images/icon3.svg'
 
 
 const Home = () => {
+
   return (
-    <div className='bg-white p-18'>
-        <div className='flex items-center justify-center m-10 space-x-8'>
-        <div className='space-y-4'>
-            <header className='space-y-2'>
-            <h1 className='text-black font-bold text-6xl'>Hello 👋.</h1>
-            <p className='text-slate-700 text-xl font-bold leading-loose'>I'm <span className='text-red-500'>Balayar Suman.</span> Software Developer.<br/>  Devops Engineer.Tech Enthusiast.<br/> Learner for Life👨‍🎓</p>
-            </header>
-            <section className='space-x-2'>
-            <SocialIcon/>
-            <SocialIcon url="https://github.com/sumanbalayar08" />
-            <SocialIcon url="https://www.linkedin.com/in/balayar07/" />
-            <SocialIcon url="https://www.upwork.com/freelancers/~0101ed0c38089c4486" />
-            <SocialIcon url="https://www.facebook.com/suman.balayarr" />
-            </section>
-            <section>
-                <button className='bg-blue-500 hover:bg-blue-700 text-white py-2 px-6 text-2xl font-medium rounded'>Contact Me</button>
-            </section>
+    <div className="flex-col space-y-4 px-[13%] pt-[6%] bg-slate-100">
+      <div className="flex space-x-2 justify-between">
+        <div className="flex-col space-y-6">
+          <div className="space-y-2">
+            <p className="text-6xl font-extrabold">Full Stack Software</p>
+
+            <p className="text-6xl font-extrabold">Developer👋</p>
+          </div>
+
+          <p className="text-lg text-slate-700 font-sans leading-8">
+            Hello, I'm Suman Balayar. A passionate Full Stack Software Developer
+            based in Nepal. 📍
+          </p>
+
+          <div className="flex space-x-4">
+            <AiOutlineLinkedin size={30} className="cursor-pointer" />
+            <AiOutlineGithub size={30} className="cursor-pointer" />
+          </div>
         </div>
         <div>
-            <img src={myImage} alt="Suman Balayar"/>
+          <img src={myImage} alt="My Pic" />
         </div>
+      </div>
+      <div className="flex items-center space-x-20">
+        <div className="flex items-center space-x-4">
+        <span>Tech Stack</span>
+        <div className="h-5 w-1 border-r-2 border-slate-400"></div>
         </div>
-        <div>
-            <div className='flex text-black font-bold text-4xl items-center justify-center'>Here's What I do</div>
-            <div className='flex items-center justify-center'>
-                <div>
-                    <p>This is the next image section</p>
-                </div>
-                <div>
-                    <p>This is the backend development part</p>
-                </div>
-            </div>
+        <div className="flex space-x-8">
+            <img src={image1}/>
+            <img src={image2}/>
+
+            <img src={image3}/>
+
+
         </div>
+
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default Home;

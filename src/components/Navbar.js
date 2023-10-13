@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="bg-black py-5 text-white flex flex-col sm:flex-row">
-        <div className="ml-20">
-            <h2>Suman's Portfolio</h2>
-        </div>
-      <ul className="flex ml-40 space-x-0 sm:space-x-8">
-        <li><Link to='/'>Home</Link></li>
-        <li><Link to='/edu'>Education and Certifications</Link></li>
-        <li><Link to='/exp'>Experience</Link></li>
-        <li><Link to='/project'>Projects</Link></li>
-        <li><Link to='/contact'>Contact & Resume</Link></li>
+    <div className="flex items-center justify-between shadow-md py-[2%] px-[4%] sticky">
+      <div>
+        <span className="text-xl font-semibold">Balayar.DEV</span>
+      </div>
+
+      <ul className="flex space-x-4 text-lg font-medium font-sans">
+        <li>Home</li>
+        <li>About</li>
+        <li>Projects</li>
+        <li>Contacts</li>
       </ul>
     </div>
   );
