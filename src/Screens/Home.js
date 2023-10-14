@@ -1,7 +1,5 @@
 import React from "react";
-import { SocialIcon } from "react-social-icons";
 import myImage from "../images/suman.png";
-import waved from "../images/waving.1bae5fcfb51082b5c2b4.png";
 import { AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
 import image1 from "../images/icon1.svg";
 import image2 from "../images/icon2.svg";
@@ -11,6 +9,7 @@ import image5 from "../images/icon5.svg";
 import image6 from "../images/icon6.svg";
 import image7 from "../images/icon7.svg";
 import image8 from "../images/icon8.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const images = [
@@ -25,7 +24,7 @@ const Home = () => {
   ];
 
   return (
-      <div className="flex-col space-y-7 px-[13%] pt-[8%] bg-slate-100 h-[90vh]">
+      <div id="home" className="flex-col space-y-7 px-[13%] pt-[8%] bg-slate-100 h-[90vh]">
         <div className="flex space-x-2 justify-between">
           <div className="flex-col space-y-6">
             <div className="space-y-2">
@@ -40,8 +39,8 @@ const Home = () => {
             </p>
 
             <div className="flex space-x-4">
-              <AiOutlineLinkedin size={30} className="cursor-pointer" />
-              <AiOutlineGithub size={30} className="cursor-pointer" />
+            <Link to='https://www.linkedin.com/in/balayar08/'><AiOutlineLinkedin size={30} className="cursor-pointer" /></Link>
+              <Link to='https://github.com/sumanbalayar08'><AiOutlineGithub size={30} className="cursor-pointer" /></Link>
             </div>
           </div>
           <div>

@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Home from "./Screens/Home";
 import { BrowserRouter,Route,Routes } from "react-router-dom";
 import About from "./Screens/About";
+import Contacts from "./Screens/Contacts";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
     <Navbar/>
     <Home/>
     <About/>
+    <Contacts/>
+    <Footer/>
     </BrowserRouter>
     
   );
