@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between shadow-md py-[2%] px-[4%] sticky">
+    <div className="flex items-center justify-between shadow-md py-[2%] px-[4%] sticky top-0 bg-white">
       <div>
         <span className="text-xl font-semibold">Balayar.DEV</span>
       </div>

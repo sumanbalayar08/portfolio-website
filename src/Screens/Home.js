@@ -25,7 +25,6 @@ const Home = () => {
   ];
 
   return (
-    <>
       <div className="flex-col space-y-7 px-[13%] pt-[8%] bg-slate-100 h-[90vh]">
         <div className="flex space-x-2 justify-between">
           <div className="flex-col space-y-6">
@@ -80,8 +79,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div>dfsfsdf</div>
-    </>
   );
 };
 
