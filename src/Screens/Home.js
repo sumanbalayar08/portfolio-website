@@ -49,7 +49,7 @@ const Home = () => {
         </div>
         <div className="flex items-center space-x-20">
           <div className="flex items-center space-x-4">
-            <span>Tech Stack</span>
+            <span className="text-lg">Tech Stack</span>
             <div className="h-5 w-1 border-r-2 border-slate-400"></div>
           </div>
           <div className="flex space-x-6">

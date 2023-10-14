@@ -3,7 +3,7 @@ import {Link as ScrollLink} from 'react-scroll'
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between shadow-sm py-[2%] px-[4%] sticky top-0 bg-white">
+    <div className="flex items-center justify-between shadow-sm py-[1.5%] px-[4%] sticky top-0 bg-white">
       <div>
         <span className="text-xl font-semibold">Balayar.DEV</span>
       </div>
