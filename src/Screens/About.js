@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div id="about" className='flex items-center justify-between space-x-20 px-[13%] pt-[4%] h-[90vh]'>
       <div>
-        <img src={image} alt="About Image" className="w-[500vh] object-cover rounded-xl"/>
+        <img src={image} alt="About Image" className="w-[700vh] object-cover rounded-xl"/>
       </div>
 
       <div className='flex-col space-y-2'>
