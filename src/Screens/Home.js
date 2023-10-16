@@ -24,7 +24,7 @@ const Home = () => {
   ];
 
   return (
-      <div id="home" className="flex-col space-y-7 px-[13%] pt-[8%] bg-slate-100 h-[90vh]">
+      <div id="home" className="flex-col space-y-7 px-[13%] pt-[8%] bg-slate-100 pb-[4%]">
         <div className="flex space-x-2 justify-between">
           <div className="flex-col space-y-6">
             <div className="space-y-2">

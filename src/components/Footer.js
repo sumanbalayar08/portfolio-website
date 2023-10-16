@@ -16,8 +16,8 @@ const Footer = () => {
     </div>
     */
     <div className="bg-gray-800 py-[8%]">
-      <div className="flex-1 md:flex lg:flex-row text-white items-center md:justify-between md:px-[13%] md:space-y-0 space-y-2">
-        <div className="text-lg font-bold text-center">
+      <div className="flex-1 md:flex lg:flex-row text-white items-center md:justify-between px-[2%] md:px-[13%] md:space-y-0 space-y-2">
+        <div className="text-md md:text-lg font-bold text-center">
           Copyright © 2023. All rights are reserved
         </div>
         <div className="flex items-center justify-center space-x-4">

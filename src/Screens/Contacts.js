@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 
 const Contacts = () => {
   return (
-    <div id="contacts" className='flex-col px-[13%] pt-[4%] h-[50vh] items-center justify-center space-y-4 bg-slate-100'>
-      <span className='font-bold text-sky-600 text-lg font-bold'>CONTACT</span>
+    <div id="contacts" className='flex-col px-[13%] py-[4%] items-center justify-center space-y-4 bg-slate-100'>
+      <span className='font-bold text-sky-600 text-lg'>CONTACT</span>
       <div className='font-extrabold text-2xl'>
         Hit me up! 👇
       </div>
@@ -22,7 +22,7 @@ const Contacts = () => {
         <BiLogoGmail color='#147efb' size={50} className='rounded-full shadow-md p-3'/>
           <div className='flex-col space-y-2'>
             <span className='text-lg font-bold'>Mail</span>
-            <p className='text-slate-600'><Link to="mailto:sumanbalayar62@gmail.com">sumanbalayar62@gmail.com</Link></p>
+            <p className='text-slate-600'><Link to="mailto:sumanbalayar62@gmail.com"></Link></p>
           </div>
         </div>
       </div>
