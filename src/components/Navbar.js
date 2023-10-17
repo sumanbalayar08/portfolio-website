@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-white w-full top-0 left-0 shadow-sm h-[16]">
-      <div className="md:flex items-center justify-between py-4 sticky bg-white md:px-6">
+      <div className="md:flex items-center justify-between py-4 sticky bg-white px-4 md:px-6">
         <div>
           <span className="text-xl font-semibold">Balayar.DEV</span>
         </div>
@@ -40,7 +40,7 @@ const Navbar = () => {
         </ul>
 
         <ul
-          className={`absolute md:hidden items-center bg-white top-[61px] w-full space-y-4 justify-center transform ${
+          className={`absolute md:hidden items-center bg-white top-[61px] left-0 w-full space-y-4 justify-center transform ${
             toggle ? "block" : "hidden"
           }`}
         >
@@ -74,7 +74,7 @@ const Navbar = () => {
         </ul>
 
         <GiHamburgerMenu
-          className="absolute cursor-pointer block md:hidden right-8 top-5 scale-110"
+          className="absolute cursor-pointer block md:hidden right-6 top-5 scale-110"
           onClick={toggleMenu}
         />
       </div>
